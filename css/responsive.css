@@ -1,0 +1,50 @@
+/* change when screen is above a widht of 500px */
+@media screen and (min-width: 500px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        margin-top: 0;
+        width: 18em;
+        font-size: 10pt;
+    }
+
+    #illustration_1, #illustration_2{
+        height: 20em;
+    }
+
+    #review{
+        width: 20em;
+        margin: auto;
+        margin-top: 3em;
+    }
+
+    #profile{
+        left: -2em;
+    }
+}
+
+/* change when screen is above a widht of 700px */
+@media screen and (min-width: 700px) {
+
+    #illustration_1, #illustration_2{
+        height: 25em;
+    }
+
+    #files{
+        width: 30em;
+    }
+
+    #productive{
+        width: 30em;
+    }
+
+    #access{
+        width: 30em;
+    }
+
+}
