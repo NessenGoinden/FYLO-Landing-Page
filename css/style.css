@@ -87,7 +87,7 @@ section h2{
     font-weight: 700;
 }
 
-section h2, h3, p, #enter_email, #see_more_work{
+section p, #enter_email, #see_more_work{
     margin-top: 2em;
 }
 
@@ -96,9 +96,13 @@ section h2, h3, p, #enter_email, #see_more_work{
     padding: 1em;
 }
 
+#articel_one{
+    margin-top: 5em;
+}
+
 /* articel two */
 #article_two{
-    margin-top: 3em;
+    margin-top: 10em;
 }
 
 #article_two #see_more_work{
@@ -121,7 +125,9 @@ section h2, h3, p, #enter_email, #see_more_work{
 }
 
 #review{
+    width: 20em;
     padding: 1em;
+    margin: auto;
     margin-top: 3em;
     background: white;
     border-radius: 10px;
@@ -170,6 +176,7 @@ section h2, h3, p, #enter_email, #see_more_work{
     font-family: 'Raleway', sans-serif;
     color: white;
     padding: 2em;
+    margin-top: 10em;
 }
 
 /* footer */
